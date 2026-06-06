@@ -1,0 +1,1 @@
+la ruta lo que hace es recibir un mensaje y contestar nuevamente el mensaje en un archivo jso 

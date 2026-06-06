@@ -1,0 +1,3 @@
+en la ruta / sale servidor activo
+ne la ruta / saludo sale saludos comunidad
+en la ruta /juan sale el saludo a juan 

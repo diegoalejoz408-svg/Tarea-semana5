@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    pagina web para probar el POST
+    <script>
+        console.log('funciona')
+        fetch('/reporte',{
+            method: 'POST',
+            headers:{
+                'content-type':'application/json'
+            },
+            body: JSON,stringify({
+                mensaje: 'Hola, como estas?'
+            })
+        })
+        .then(respuesta => respuesta.json())
+        .then(datos => console.log('exito:',datos))
+        .catch(error => console.error('error:', error));
+    </script>
+</body>
+</html>
